@@ -55,7 +55,7 @@ public class Task1 {
                 case 2: {
                     System.out.println("Opted for Hard Difficulty.\nHence, there is a Limit to number of attempts");
                     System.out.println(
-                            "The limit is just 5.\nIf you have guessed the number in 5 or less attempts you have won the game.\n Else you will lose the game.\n");
+                            "The limit is just 5.\nIf you have guessed the number in 5 or less attempts you will win the game.\n Else you will lose the game.\n");
                     int randomNumber = 1 + rand.nextInt(100);
                     System.out.println("Random Number has been generated...");
 
@@ -72,7 +72,7 @@ public class Task1 {
                                     + " is LOWER than Generated Number. You have to Guess again...");
                         } else {
                             System.out.println(
-                                    "The number " + guess + " is EQUAL to than Generated Number.\nCongrats it took you "
+                                    "The number " + guess + " is EQUAL to the Generated Number.\nCongrats it took you "
                                             + count + " attempts.");
                             break whileloop;
                         }

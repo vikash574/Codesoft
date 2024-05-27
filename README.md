@@ -1,2 +1,0 @@
-# Codesoft
-Java Programming Task

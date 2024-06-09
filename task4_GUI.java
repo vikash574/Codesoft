@@ -110,10 +110,11 @@ class ATMGUI extends JFrame implements ActionListener {
     }
 }
 
-public class task4_GUI {
+public class Task4_GUI {
     public static void main(String[] args) {
         Bank_Account userAccount = new Bank_Account(10000.0);
         ATMGUI atmGUI = new ATMGUI(userAccount);
         atmGUI.setVisible(true);
     }
 }
+/* Vikash */
